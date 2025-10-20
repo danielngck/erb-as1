@@ -1,0 +1,60 @@
+body {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  color: #2103e7;
+  margin-right: 3rem;
+  /* margin-bottom: 20px; */
+}
+
+.container h1 {
+  font-family: "Julee", cursive; /*julee-regular*/
+  font-weight: 600;
+  font-style: normal;
+}
+
+.modal-header h2 {
+  font-family: "Julee", cursive; /*julee-regular*/
+  font-weight: 800;
+  font-style: normal;
+  color:#2103e7
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  /* Responsive grid */
+  gap: 15px;
+  /* Space between images */
+}
+
+.folder {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ebfbff;
+  transition: background-color 0.2s;
+}
+
+.folder:hover {
+  background-color: #e9ecef;
+  /* Light gray on hover */
+}
+
+.folder img {
+  width: 100%;
+  /* Fit image to container */
+  height: auto;
+  /* Maintain aspect ratio */
+  border-radius: 5px;
+  /* Rounded corners */
+  margin-bottom: 5px;
+}
+
+.folder p {
+  margin: 0;
+  font-size: 16px;
+}

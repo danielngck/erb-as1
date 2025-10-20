@@ -1,0 +1,356 @@
+body {
+    background-color: #f0f3f5;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-brand {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size:x-large ;
+    font-style: normal ;
+}
+
+.nav-link {
+    font-size: larger;
+}
+
+.tophead {
+    background: linear-gradient(to top, #66aaff, #003366, #001f4d);
+    margin-top: 56px;
+    height: 30vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tophead h1,
+.tophead p {
+    font-family: "Julee", cursive;
+    /*julee-regular*/
+    font-weight: 500;
+    font-style: normal;
+}
+
+.tophead h1 {
+    padding-top: 30px;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.tophead p {
+    padding-top: 100px;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.carousel {
+    height: 70vh;
+    /* Set the height for the carousel to half of the viewport height */
+}
+
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+    /* Ensure each item takes full height */
+}
+
+.carousel-item img {
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height to fill the carousel */
+    object-fit: contain;
+    /* Ensure the image covers the area without distortion */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(50%) sepia(500%) saturate(500%) hue-rotate(100deg) brightness(60%);
+    /* Example: green color */
+    /* Adjust filter values to achieve your desired color */
+    width: 50px;
+    /* Set the desired width */
+    height: 50px;
+    /* Set the desired height */
+    background-size: 50px 50px;
+    /* Ensure the background size matches */
+}
+
+.destination {
+    margin: 40px 0;
+    padding-top: 60px;
+}
+
+.destination h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-family:cursive;
+    color:#007bff;
+}
+
+.destination h3 {
+    color:chocolate ;
+}
+
+.destination p {
+    font-family:cursive;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.dest {
+    margin: 40px 0;
+    /* padding-top: 10px; */
+}
+
+.dest h2 {
+    /* margin-top: 60px; */
+    text-align: center;
+    font-family:cursive;
+    color:#007bff;
+    font-size: 2.5rem;
+}
+
+.dest h5 {
+    color:chocolate;
+    font-size: 1.5rem;
+}
+
+
+
+.navbar-nav .nav-link {
+    transition: color 0.3s;
+    /* Smooth transition */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: transparent;
+    /* Light background on hover */
+    color: #ffffff;
+    /* Optional: change text color on hover */
+}
+
+.img-container {
+    display: flex; /* Arrange images in a row */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    gap: 10px; /* Space between image boxes */
+}
+
+.img-wrapper {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, and base width */
+    max-width: 300px; /* Maximum width for each image box */
+    overflow: hidden; /* Hide overflow */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+
+.img-wrapper img {
+    width: 100%; /* Ensure the image covers the entire wrapper */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the box without distortion */
+}
+
+.img-container img {
+    width: 100%;
+    /* Ensure images fill the container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .img-container img {
+        max-width: 100%;
+        /* Stack images on smaller screens */
+    }
+
+    .destination {
+        padding-top: 80px;
+        /* padding-top: 180px; */
+    }
+
+    .tophead h1 {
+    padding-top: 30px;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.tophead p {
+    padding-top: 100px;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+    .carousel {
+    height: 70vh;
+    /* Set the height for the carousel to half of the viewport height */
+}
+
+.carousel-inner {
+    height: 100%;
+    /* Ensure inner takes full height */
+}
+
+.carousel-item {
+    height: 100%;
+    /* Ensure each item takes full height */
+}
+
+.carousel-item img {
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height to fill the carousel */
+    object-fit: contain;
+    /* Ensure the image covers the area without distortion */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(50%) sepia(500%) saturate(500%) hue-rotate(100deg) brightness(60%);
+    /* Example: green color */
+    /* Adjust filter values to achieve your desired color */
+    width: 50px;
+    /* Set the desired width */
+    height: 50px;
+    /* Set the desired height */
+    background-size: 50px 50px;
+    /* Ensure the background size matches */
+}
+}
+
+.img-container:hover img {
+    /* transform: scale(1.05); */
+    transform: scale(1.2);
+}
+
+.video-container {
+    margin: 20px 0;
+}
+
+.v-head h5 {
+    text-align: center;
+    font-family:cursive;
+    color:#007bff;
+}
+
+.v-head h3 {
+    margin-top: 1em ;
+    text-align: center;
+    font-family:cursive;
+    color:#007bff;
+}
+
+.map-container {
+    margin: 20px 0;
+    height: 400px;
+    width: 100%;
+}
+
+.map-container h5 {
+    text-align: center;
+    font-family:cursive;
+    color:#007bff;
+}
+
+.map-container h3 {
+    margin-top: 1em ;
+    text-align: center;
+    font-family:cursive;
+    color:#007bff;
+}
+
+footer {
+    /* background: #0f02c6; */
+    background: linear-gradient(to bottom, #66aaff, #003366, #001f4d); 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 80px;
+    font-size: large;
+}
+
+.back-to-top {
+    position: fixed;
+    /* Fixed position */
+    bottom: 30px;
+    /* Distance from the bottom */
+    right: 20px;
+    /* Distance from the right */
+    display: flex;
+    /* Initially hidden */
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: #007bff;
+    /* Button color */
+    color: white;
+    /* Text color */
+    font-size: large ;
+    border: none;
+    /* No border */
+    border-radius: 15px;
+    /* Rounded corners */
+    padding: 0px 10px;
+    /* Padding */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /* Optional: shadow */
+    z-index: 1000;
+    /* Ensure it's above other content */
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
+
+.video-container {
+    display: flex;
+    /* Use flexbox for layout */
+    flex-wrap: wrap;
+    /* Allow wrapping for responsiveness */
+    justify-content: center;
+    /* Center items */
+    margin: 20px;
+    /* Optional: margin around the container */
+}
+
+.video-wrapper {
+    flex: 1 1 300px;
+    /* Allow flex to grow and shrink, with a minimum width */
+    margin: 10px;
+    /* Space between videos */
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    /* Make iframe responsive */
+    height: 250px;
+    /* Fixed height for the videos */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .video-wrapper {
+        flex: 1 1 100%;
+        /* Stack videos vertically on small screens */
+    }
+
+    .video-wrapper iframe {
+        height: 200px;
+        /* Adjust height for smaller screens */
+    }
+}
+
