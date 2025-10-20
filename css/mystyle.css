@@ -53,7 +53,7 @@ body {
 }
 
 .carousel {
-    height: 50vh;
+    height: 70vh;
     /* Set the height for the carousel to half of the viewport height */
 }
 
@@ -177,6 +177,17 @@ body {
         padding-top: 80px;
         /* padding-top: 180px; */
     }
+
+.tophead {
+    background: linear-gradient(to top, #66aaff, #003366, #001f4d);
+    margin-top: 56px;
+    height: 25vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
     .tophead h1 {
     padding-top: 30px;
@@ -353,8 +364,4 @@ footer {
         /* Adjust height for smaller screens */
     }
 }
-
-
-
-
 
