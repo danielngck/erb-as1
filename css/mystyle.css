@@ -24,7 +24,7 @@ body {
 .tophead {
     background: linear-gradient(to top, #66aaff, #003366, #001f4d);
     margin-top: 56px;
-    height: 30vh;
+    height: 20vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -353,6 +353,7 @@ footer {
         /* Adjust height for smaller screens */
     }
 }
+
 
 
 
