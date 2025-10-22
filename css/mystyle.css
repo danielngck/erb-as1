@@ -9,12 +9,39 @@ body {
     font-style: normal;
 }
 
+.julee-regular {
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.julee-bold {
+    font-family: "Julee", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.julee-italic {
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* 
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+} */
+
 .navbar-brand {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-size:x-large ;
-    font-style: normal ;
+    font-size: x-large;
+    font-style: normal;
 }
 
 .nav-link {
@@ -24,7 +51,7 @@ body {
 .tophead {
     background: linear-gradient(to top, #66aaff, #003366, #001f4d);
     margin-top: 56px;
-    height: 25vh;
+    height: 23vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -35,7 +62,6 @@ body {
 .tophead h1,
 .tophead p {
     font-family: "Julee", cursive;
-    /*julee-regular*/
     font-weight: 500;
     font-style: normal;
 }
@@ -55,6 +81,9 @@ body {
 .carousel {
     height: 70vh;
     /* Set the height for the carousel to half of the viewport height */
+    overflow: hidden;
+
+
 }
 
 .carousel-inner,
@@ -86,23 +115,23 @@ body {
 }
 
 .destination {
-    margin: 40px 0;
-    padding-top: 60px;
+    margin: 10px 0;
+    padding-top: 10px;
 }
 
 .destination h1 {
-    margin-top: 60px;
+    margin-top: 80px;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    color:#007bff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007bff;
 }
 
 .destination h3 {
-    color:chocolate ;
+    color: chocolate;
 }
 
 .destination p {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     font-weight: 200;
 }
@@ -115,13 +144,13 @@ body {
 .dest h2 {
     /* margin-top: 60px; */
     text-align: center;
-    font-family:cursive;
-    color:#007bff;
+    font-family: cursive;
+    color: #007bff;
     font-size: 2.5rem;
 }
 
 .dest h5 {
-    color:chocolate;
+    color: chocolate;
     font-size: 1.5rem;
 }
 
@@ -140,23 +169,33 @@ body {
 }
 
 .img-container {
-    display: flex; /* Arrange images in a row */
-    flex-wrap: wrap; /* Allow wrapping to the next line */
-    gap: 10px; /* Space between image boxes */
+    display: flex;
+    /* Arrange images in a row */
+    flex-wrap: wrap;
+    /* Allow wrapping to the next line */
+    gap: 10px;
+    /* Space between image boxes */
 }
 
 .img-wrapper {
-    flex: 1 1 300px; /* Flex-grow, flex-shrink, and base width */
-    max-width: 300px; /* Maximum width for each image box */
-    overflow: hidden; /* Hide overflow */
-    border-radius: 8px; /* Optional: Add rounded corners */
+    flex: 1 1 300px;
+    /* Flex-grow, flex-shrink, and base width */
+    max-width: 300px;
+    /* Maximum width for each image box */
+    overflow: hidden;
+    /* Hide overflow */
+    border-radius: 8px;
+    /* Optional: Add rounded corners */
 }
 
 
 .img-wrapper img {
-    width: 100%; /* Ensure the image covers the entire wrapper */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Cover the box without distortion */
+    width: 100%;
+    /* Ensure the image covers the entire wrapper */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    /* Cover the box without distortion */
 }
 
 .img-container img {
@@ -174,69 +213,70 @@ body {
     }
 
     .destination {
-        padding-top: 80px;
+        padding-top: 120px;
         /* padding-top: 180px; */
     }
 
-.tophead {
-    background: linear-gradient(to top, #66aaff, #003366, #001f4d);
-    margin-top: 56px;
-    height: 25vh;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+    .tophead {
+        background: linear-gradient(to top, #66aaff, #003366, #001f4d);
+        margin-top: 56px;
+        height: 23vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
     .tophead h1 {
-    padding-top: 30px;
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
+        padding-top: 20px;
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
 
-.tophead p {
-    padding-top: 100px;
-    font-size: 1.5rem;
-    margin: 10px;
-}
+    .tophead p {
+        padding-top: 100px;
+        font-size: 1.2rem;
+        margin: 10px;
+    }
 
     .carousel {
-    height: 70vh;
-    /* Set the height for the carousel to half of the viewport height */
-}
+        height: 50vh;
+        /* Set the height for the carousel to half of the viewport height */
+        overflow: hidden;
+    }
 
-.carousel-inner {
-    height: 100%;
-    /* Ensure inner takes full height */
-}
+    .carousel-inner {
+        height: 100%;
+        /* Ensure inner takes full height */
+    }
 
-.carousel-item {
-    height: 100%;
-    /* Ensure each item takes full height */
-}
+    .carousel-item {
+        height: 100%;
+        /* Ensure each item takes full height */
+    }
 
-.carousel-item img {
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height to fill the carousel */
-    object-fit: contain;
-    /* Ensure the image covers the area without distortion */
-}
+    .carousel-item img {
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height to fill the carousel */
+        object-fit: contain;
+        /* Ensure the i mage covers the area without distortion */
+    }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    filter: invert(50%) sepia(500%) saturate(500%) hue-rotate(100deg) brightness(60%);
-    /* Example: green color */
-    /* Adjust filter values to achieve your desired color */
-    width: 50px;
-    /* Set the desired width */
-    height: 50px;
-    /* Set the desired height */
-    background-size: 50px 50px;
-    /* Ensure the background size matches */
-}
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(50%) sepia(500%) saturate(500%) hue-rotate(100deg) brightness(60%);
+        /* Example: green color */
+        /* Adjust filter values to achieve your desired color */
+        width: 50px;
+        /* Set the desired width */
+        height: 50px;
+        /* Set the desired height */
+        background-size: 50px 50px;
+        /* Ensure the background size matches */
+    }
 }
 
 .img-container:hover img {
@@ -250,15 +290,15 @@ body {
 
 .v-head h5 {
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    color:#007bff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007bff;
 }
 
 .v-head h3 {
-    margin-top: 1em ;
+    margin-top: 1em;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    color:#007bff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007bff;
 }
 
 .map-container {
@@ -269,20 +309,20 @@ body {
 
 .map-container h5 {
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    color:#007bff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007bff;
 }
 
 .map-container h3 {
-    margin-top: 1em ;
+    margin-top: 1em;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    color:#007bff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007bff;
 }
 
 footer {
     /* background: #0f02c6; */
-    background: linear-gradient(to bottom, #66aaff, #003366, #001f4d); 
+    background: linear-gradient(to bottom, #66aaff, #003366, #001f4d);
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -306,7 +346,7 @@ footer {
     /* Button color */
     color: white;
     /* Text color */
-    font-size: large ;
+    font-size: large;
     border: none;
     /* No border */
     border-radius: 15px;
@@ -364,4 +404,3 @@ footer {
         /* Adjust height for smaller screens */
     }
 }
-

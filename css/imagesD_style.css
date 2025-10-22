@@ -1,4 +1,7 @@
 body {
+  font-family: "Julee", cursive;
+  font-weight: 400;
+  font-style: normal;
   padding: 20px;
   background-color: #f8f9fa;
 }
@@ -10,16 +13,26 @@ h1 {
 }
 
 .container h1 {
-  font-family: "Julee", cursive; /*julee-regular*/
+  font-family: "Julee", cursive;
+  /*julee-regular*/
+  font-weight: 800;
+  font-style: normal;
+}
+
+.container a {
+  font-family: "Julee", cursive;
+  /*julee-regular*/
+  font-size: x-large;
   font-weight: 600;
   font-style: normal;
 }
 
 .modal-header h2 {
-  font-family: "Julee", cursive; /*julee-regular*/
+  font-family: "Julee", cursive;
+  /*julee-regular*/
   font-weight: 800;
   font-style: normal;
-  color:#2103e7
+  color: #2103e7
 }
 
 .gallery {
