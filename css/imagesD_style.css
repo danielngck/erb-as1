@@ -22,7 +22,7 @@ h1 {
 .container a {
   font-family: "Julee", cursive;
   /*julee-regular*/
-  font-size: x-large;
+  font-size: large;
   font-weight: 600;
   font-style: normal;
 }
@@ -70,4 +70,5 @@ h1 {
 .folder p {
   margin: 0;
   font-size: 16px;
+
 }
