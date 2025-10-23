@@ -1,9 +1,9 @@
 // Get the button
 const backToTopButton = document.getElementById("backToTop");
-backToTopButton.style.display = "none";
+
 // Show the button when scrolling down 100px from the top
 window.onscroll = function () {
-    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         backToTopButton.style.display = "block";
     } else {
         backToTopButton.style.display = "none";
@@ -18,5 +18,6 @@ backToTopButton.onclick = function () {
     });
 
 };
+
 
 
