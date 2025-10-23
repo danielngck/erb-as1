@@ -23,7 +23,7 @@ h1 {
   font-family: "Julee", cursive;
   /*julee-regular*/
   font-size: large;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -70,5 +70,17 @@ h1 {
 .folder p {
   margin: 0;
   font-size: 16px;
+}
 
+.image-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 80%;
+}
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }

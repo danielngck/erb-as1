@@ -37,11 +37,13 @@ body {
 } */
 
 .navbar-brand {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Julee", cursive;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-size: x-large;
-    font-style: normal;
+    font-size:xx-large;
+    font-style:normal;
+    display:flex;
+    align-items: center;
 }
 
 .nav-link {
@@ -67,13 +69,13 @@ body {
 }
 
 .tophead h1 {
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
 .tophead p {
-    padding-top: 100px;
+    padding-top: 80px;
     font-size: 1.5rem;
     margin: 10px;
 }
@@ -130,11 +132,16 @@ body {
     color: chocolate;
 }
 
-.destination p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 200;
+.destination h5 {
+    font-weight:600;
 }
+
+.destination p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
 
 .dest {
     margin: 40px 0;
