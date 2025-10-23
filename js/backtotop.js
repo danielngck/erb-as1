@@ -16,8 +16,4 @@ backToTopButton.onclick = function () {
         top: 0,
         behavior: "smooth" // Smooth scroll
     });
-
 };
-
-
-
