@@ -32,7 +32,7 @@ h1 {
   /*julee-regular*/
   font-weight: 800;
   font-style: normal;
-  color: #2103e7
+  color: #2103e7;
 }
 
 .gallery {
@@ -73,7 +73,7 @@ h1 {
 }
 
 .image-container {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 500px;
@@ -83,4 +83,19 @@ h1 {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 80%;
+  }
+  .image-container img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+  }
 }
